@@ -1,9 +1,17 @@
 {
   "name": "opencode-free-models",
   "version": "1.0.0",
-  "description": "Filtra il selettore /models di OpenCode: lascia visibili solo i modelli gratuiti.",
+  "description": "Plugin OpenCode 2: nel selettore /models lascia visibili solo i modelli gratuiti.",
   "type": "module",
   "main": "index.ts",
-  "keywords": ["opencode", "opencode-plugin", "models", "free"],
-  "files": ["index.ts", "README.md"]
+  "keywords": ["opencode", "opencode-plugin", "models", "free", "openrouter", "nvidia"],
+  "author": "Gurzo82",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gurzo82/opencode-free-models.git"
+  },
+  "homepage": "https://github.com/Gurzo82/opencode-free-models#readme",
+  "bugs": { "url": "https://github.com/Gurzo82/opencode-free-models/issues" },
+  "files": ["index.ts", "README.md", "LICENSE"]
 }

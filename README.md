@@ -15,7 +15,7 @@ Il filtro gira a ogni ricostruzione del catalogo (refresh di models.dev, cambio 
 Da un repository git (consigliata, così è aggiornabile su più macchine):
 
 ```sh
-opencode plugin add github:<tuo-utente>/opencode-free-models
+opencode plugin add github:Gurzo82/opencode-free-models
 ```
 
 oppure direttamente nella configurazione (`~/.config/opencode/opencode.json`):
@@ -23,11 +23,11 @@ oppure direttamente nella configurazione (`~/.config/opencode/opencode.json`):
 ```jsonc
 {
   "$schema": "https://opencode.ai/config.json",
-  "plugins": ["github:<tuo-utente>/opencode-free-models"],
+  "plugins": ["github:Gurzo82/opencode-free-models"],
 }
 ```
 
-Per pinnare una versione: `"github:<tuo-utente>/opencode-free-models#v1.0.0"`.
+Per pinnare una versione: `"github:Gurzo82/opencode-free-models#v1.0.0"`.
 
 Locale, senza git: copia la cartella in `~/.config/opencode/plugins/` (i pacchetti plugin vengono scoperti automaticamente) oppure referenziala con un path:
 
@@ -42,7 +42,7 @@ Locale, senza git: copia la cartella in `~/.config/opencode/plugins/` (i pacchet
   "$schema": "https://opencode.ai/config.json",
   "plugins": [
     {
-      "package": "github:<tuo-utente>/opencode-free-models",
+      "package": "github:Gurzo82/opencode-free-models",
       "options": {
         "providers": ["opencode", "openrouter"],
         "allFree": ["nvidia"],
