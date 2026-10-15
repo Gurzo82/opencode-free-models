@@ -1,0 +1,9 @@
+{
+  "name": "opencode-free-models",
+  "version": "1.0.0",
+  "description": "Filtra il selettore /models di OpenCode: lascia visibili solo i modelli gratuiti.",
+  "type": "module",
+  "main": "index.ts",
+  "keywords": ["opencode", "opencode-plugin", "models", "free"],
+  "files": ["index.ts", "README.md"]
+}
